@@ -18,13 +18,17 @@ import subprocess
 # Install required packages
 subprocess.run(["pip", "install", "streamlit", "tensorflow", "opencv-python", "requests", "numpy", "matplotlib"])
 
+streamlit
+tensorflow
+opencv-python
+requests
+numpy
+matplotlib
+
+
 import streamlit as st
-import tensorflow as tf
 from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input, decode_predictions
-import numpy as np
-import cv2
-import requests
 import matplotlib.pyplot as plt
 
 # Set page title and layout
